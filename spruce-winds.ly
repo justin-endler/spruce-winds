@@ -17,7 +17,7 @@ nsl = {
 crOn = \override NoteHead #'style = #'cross
 crOff = \revert NoteHead #'style
 global = { \time 4/4 }
-Key = { \key c \major }
+Key = { \key d \major }
 % ------ Clarinet ------
 %clar = \transpose c d \relative c'' {
 %clar = \transpose c a \relative c {
@@ -25,13 +25,21 @@ clar = \relative c'' {
   \Key
   \compressFullBarRests
   % Logic bar numbers in comments
-  cs16 r cs8 ~ cs16 cs r cs ~ cs8 cs16 r cs8 cs16 r | %5
-  cs8. cs16 r cs16 ~ cs8 cs16 r cs8 cs16 r cs8 ~ | %6
-  cs16 cs r cs ~ cs8 cs16 r cs8 cs16 r cs8. cs16 | %7
-  r cs ~ cs8 cs16 r cs8 cs16 r cs8 ~ cs16 cs r cs | %8
-  cs8 cs16 r cs8 cs16 r cs8. cs16 r cs ~ cs8 | %9
+  cs8-. cs ~ cs16 cs r cs ~ cs8[ cs-.] cs cs-. | %5
+  \autoBeamOff
+  cs8. cs16 r cs ~ cs8 cs-.[ cs] cs-.[ cs] ~ | %6
+  \autoBeamOn
+  cs16 cs r cs ~ cs8 cs-. cs cs-. cs8. cs16 | %7
+  \autoBeamOff
+  r cs ~ cs8 cs-.[ cs] cs-.[ cs] ~ cs16[ cs] r cs | %8
+  cs8[ cs-.] cs[ cs-.] cs8.[ cs16] r cs ~ cs8 | %9
+  \autoBeamOn
   cs16 r cs8 cs16 r cs8 ~ cs16 cs16 r cs ~ cs8 cs16 r | %10
-
+  cs8 cs16 r cs8. cs16 r cs16 ~ cs8 cs16 r cs8 | %11
+  cs8-. cs ~ cs16 cs r cs ~ cs8[ cs-.] cs cs-. | %12
+  c2 ~ c4 r | %13
+  R1|R1|R1|R1|R1|R1|
+  r2 as8-^ r16 cs16-^ r8 f8-^ | %20
 }
 clarinet = {
   \global
