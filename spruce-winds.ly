@@ -25,21 +25,57 @@ clar = \relative c'' {
   \Key
   \compressFullBarRests
   % Logic bar numbers in comments
-  cs8-. cs ~ cs16 cs r cs ~ cs8[ cs-.] cs cs-. | %5
+  cs8-. cs8 ~ cs16 cs16 r16 cs16 ~ cs8[ cs8-.] cs8 cs8-. | %5
   \autoBeamOff
-  cs8. cs16 r cs ~ cs8 cs-.[ cs] cs-.[ cs] ~ | %6
+  cs8. cs16 r16 cs16 ~ cs8 cs8-.[ cs8] cs8-.[ cs8] ~ | %6
   \autoBeamOn
-  cs16 cs r cs ~ cs8 cs-. cs cs-. cs8. cs16 | %7
+  cs16 cs16 r16 cs16 ~ cs8 cs8-. cs8 cs8-. cs8. cs16 | %7
   \autoBeamOff
-  r cs ~ cs8 cs-.[ cs] cs-.[ cs] ~ cs16[ cs] r cs | %8
-  cs8[ cs-.] cs[ cs-.] cs8.[ cs16] r cs ~ cs8 | %9
+  r16 cs16 ~ cs8 cs8-.[ cs8] cs8-.[ cs8] ~ cs16[ cs16] r16 cs16 ~ | %8
+  cs8[ cs8-.] cs8[ cs8-.] cs8.[ cs16] r16 cs16 ~ cs8 | %9
   \autoBeamOn
-  cs16 r cs8 cs16 r cs8 ~ cs16 cs16 r cs ~ cs8 cs16 r | %10
-  cs8 cs16 r cs8. cs16 r cs16 ~ cs8 cs16 r cs8 | %11
-  cs8-. cs ~ cs16 cs r cs ~ cs8[ cs-.] cs cs-. | %12
-  c2 ~ c4 r | %13
+  cs8-. cs8 cs8-. cs8 ~ cs16 cs16 r16 cs16 ~ cs8 cs8-. | %10
+  \autoBeamOff
+  cs8[ cs8-.] cs8.[ cs16] r16 cs16 ~ cs8 cs8-.[ cs8] | %11
+  \autoBeamOn
+  cs8-. cs8 ~ cs16 cs16 r16 cs16 ~ cs8[ cs8-.] cs8 cs8-. | %12
+  c2 ~ c4 r4 | %13
   R1|R1|R1|R1|R1|R1|
   r2 as8-^ r16 cs16-^ r8 f8-^ | %20
+  R1 | %21
+  r2 r16 ds16 r8 e8 r8 | %22
+  r16 cs16 r8 r4 r2 | %23
+  \autoBeamOff
+  r2 r4 r16 a16 ~ a8 ~ | %24
+  \autoBeamOn
+  a1 | %25
+  R1|R1|R1|R1|R1|R1|R1|R1|R1|
+  r2 r4 r8 cs8-. | %35
+  % repeated rhythm
+  % 0
+  cs8. cs8-. cs16 ~ cs8 cs8-. cs8 cs8-. cs8 ~ | %36
+  cs16 cs16 r16 cs16 ~ cs8 cs8-. cs8 cs8-. cs8. cs16 | %37
+  r16 cs16 ~ cs8 cs8-. cs8 cs8-. cs8 ~ cs16 cs16 r16 cs16 ~ | %38
+  cs8 cs8-. cs8 cs8-. cs8. cs16 r16 cs16 ~ cs8 | %39
+  a8-. a8 a8-. a8 ~ a16 a16 r16 a16 ~ a8 a8-. | %40
+  a8 a8-. a8. a16 r16 a16 ~ a8 a8-. a8 | %41
+  a8-. a8 ~ a16 a16 r16 a16 ~ a8 a8-. a8 a8-. | %42
+  % 1
+  a8. a8-. a16 ~ a8 a8-. a8 a8-. a8 ~ | %43
+  a16 a16 r16 a16 ~ a8 a8-. a8 a8-. a8. a16 | %44
+  r16 a16 ~ a8 a8-. a8 a8-. a8 ~ a16 a16 r16 a16 ~ | %45
+  a8 a8-. a8 a8-. a8. a16 r16 a16 ~ a8 | %46
+  a8-. a8 a8-. a8 ~ a16 a16 r16 a16 ~ a8 g8-. | %47
+  g8 g8-. g8. g16 r16 g16 ~ g8 g8-. g8 | %48
+  g8-. g8 ~ g16 g16 r16 g16 ~ g8 g8-. g8 g8-. | %49
+  %2
+  g8. g8-. g16 ~ g8 g8-. g8 g8-. g8 ~ | %50
+  g16 g16 r16 g16 ~ g8 g8-. g8 g8-. r16 fs16 r16 fs16 ~ | %51
+  fs8. f16 r16 f16 ~ f8 r8 fs8 ~ fs16 f16 r16 ds16 ~ | %52
+  ds8 c8 ~ c16 r16 d8-. ds-. e8 gs16 gs'32 a32 gs32 fs32 e16-. | %53
+  r16 ds16 r16 c16 ~ c8. d16 ~ d8 e8 ~ e16 d16 ~ d16 gs16 | %54
+  gs2 ~ gs4 r4 | %55
+
 }
 clarinet = {
   \global
