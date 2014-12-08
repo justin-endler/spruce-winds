@@ -75,6 +75,18 @@ clar = \relative c'' {
   ds8 c8 ~ c16 r16 d8-. ds-. e8 gs16 gs'32 a32 gs32 fs32 e16-. | %53
   r16 ds16 r16 c16 ~ c8. d16 ~ d8 e8 ~ e16 d16 ~ d16 gs16 | %54
   gs2 ~ gs4 r4 | %55
+  R1|R1|R1|
+  a4 ~ a8 e8 ~ e2 ~ | %59
+  e4 ~ e16 g16 fs8-. r8 r16 fs16 ~ fs4 ~ | %60
+  fs1 | %61
+  r4 r8 fs8-. fs8 r8 fs8-. fs8 | %62
+  r8 fs8-. fs8 r8 fs8-. fs8 r8 fs8-. | %63
+  fs8 r8 fs8-. fs8 r8 fs8-. fs8 r8 | %64
+  fs8-. fs8 r8 fs8-. fs8 r8 fs8-. fs8 | %65
+  r8 fs8-. fs8 r8 fs8-. fs8 r8 fs8-. | %66
+  fs8 r8 fs8-. fs8 r8 fs8-. fs8 r8 | %67
+  fs8-. fs8 r8 fs8-. fs8 r8 fs8-. fs8 | %68
+
 
 }
 clarinet = {
