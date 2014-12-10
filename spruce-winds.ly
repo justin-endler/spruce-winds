@@ -114,30 +114,35 @@ clarinet = {
 % ------ Alto Saxophone ------
 %alto = \transpose c a \relative c' {
 %alto = \transpose c a \relative c {
-alto = \relative c {
+alto = \relative c'' {
   \Key
   \compressFullBarRests
   % Logic bar numbers in comments
-  cs8-. cs8 ~ cs16 cs16 r16 cs16 ~ cs8[ cs8-.] cs8 cs8-. | %5
+  a8-. a8 ~ a16 a16 r16 a16 ~ a8[ a8-.] a8 a8-. | %5
   \autoBeamOff
-  cs8. cs16 r16 cs16 ~ cs8 cs8-.[ cs8] cs8-.[ cs8] ~ | %6
+  a8. a16 r16 a16 ~ a8 a8-.[ a8] a8-.[ a8] ~ | %6
   \autoBeamOn
-  cs16 cs16 r16 cs16 ~ cs8 cs8-. cs8 cs8-. cs8. cs16 | %7
+  a16 a16 r16 a16 ~ a8 a8-. a8 a8-. a8. a16 | %7
   \autoBeamOff
-  r16 cs16 ~ cs8 cs8-.[ cs8] cs8-.[ cs8] ~ cs16[ cs16] r16 cs16 ~ | %8
-  cs8[ cs8-.] cs8[ cs8-.] cs8.[ cs16] r16 cs16 ~ cs8 | %9
+  r16 a16 ~ a8 a8-.[ a8] a8-.[ a8] ~ a16[ a16] r16 a16 ~ | %8
+  a8[ a8-.] a8[ a8-.] a8.[ a16] r16 a16 ~ a8 | %9
   \autoBeamOn
-  cs8-. cs8 cs8-. cs8 ~ cs16 cs16 r16 cs16 ~ cs8 cs8-. | %10
+  a8-. a8 a8-. a8 ~ a16 a16 r16 a16 ~ a8 a8-. | %10
   \autoBeamOff
-  cs8[ cs8-.] cs8.[ cs16] r16 cs16 ~ cs8 cs8-.[ cs8] | %11
+  a8[ a8-.] a8.[ a16] r16 a16 ~ a8 a8-.[ a8] | %11
   \autoBeamOn
-  cs8-. cs8 ~ cs16 cs16 r16 cs16 ~ cs8[ cs8-.] cs8 cs8-. | %12
-  c2 ~ c4 r4 | %13
+  a8-. a8 ~ a16 a16 r16 a16 ~ a8[ a8-.] a8 a8-. | %12
+  gs2 ~ gs4 r4 | %13
   R1|R1|R1|R1|R1|R1|
-  r2 as8-^ r16 cs16-^ r8 f8-^ | %20
+  r2 gs8-^ r16 b16-^ r8 ds8-^ | %20
   R1 | %21
-  r2 r16 ds16 r8 e8 r8 | %22
-  r16 cs16 r8 r4 r2 | %23
+  r2 r16 cs16 r8 ds8 r8 | %22
+  r16 a16 r8 r4 r2 | %23
+
+
+  % todo stopped here %
+
+
   \autoBeamOff
   r2 r4 r16 a16 ~ a8 ~ | %24
   \autoBeamOn
