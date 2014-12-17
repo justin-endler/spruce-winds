@@ -177,28 +177,22 @@ alto = \relative c'' {
   \autoBeamOff
   e8.[ ds16] r16 cs16 ~ cs8 r8 e8 ~ e16[ ds16] r16 cs16 ~ | %52
   \autoBeamOn
-  cs8 as8 ~ as16 r16 b8-. c-. cs8 gs16 f32 g32 f32 d32 c16-. | %53
+  cs8 as8 ~ as16 r16 b8-. d-. cs8 gs16 f'32 g32 f32 d32 c16-. | %53
   \autoBeamOff
-  r16 d16 r16 gs16 ~ gs8.[ as16] ~ as8[ c8] ~ c16[ as16] ~ as16[ b16] ~ | %54
+  r16 d16 r16 gs,16 ~ gs8.[ as16] ~ as8[ c8] ~ c16[ as16] ~ as16[ e16] ~ | %54
   \autoBeamOn
-  b2 ~ b4 r4 | %55
+  e2 ~ e4 r4 | %55
   R1|R1|R1|
-
-
   fs4 ~ fs8 cs8 ~ cs2 ~ | %59
   cs4 ~ cs16 d16 cs8-. r8 r16 b16 ~ b4 ~ | %60
   b1 | %61
-
-
-  % todo stopped here %
-
-  r4 r8 fs8-. fs8 r8 fs8-. fs8 | %62
-  r8 fs8-. fs8 r8 fs8-. fs8 r8 fs8-. | %63
-  fs8 r8 fs8-. fs8 r8 fs8-. fs8 r8 | %64
-  fs8-. fs8 r8 fs8-. fs8 r8 fs8-. fs8 | %65
-  r8 fs8-. fs8 r8 fs8-. fs8 r8 fs8-. | %66
-  fs8 r8 fs8-. fs8 r8 fs8-. fs8 r8 | %67
-  fs8-. fs8 r8 fs8-. fs8 r8 fs8-. fs8 | %68
+  r4 r8 e8-. e8 r8 e8-. e8 | %62
+  r8 e8-. e8 r8 e8-. e8 r8 e8-. | %63
+  e8 r8 e8-. e8 r8 e8-. e8 r8 | %64
+  e8-. e8 r8 e8-. e8 r8 e8-. e8 | %65
+  r8 e8-. e8 r8 e8-. e8 r8 e8-. | %66
+  e8 r8 e8-. e8 r8 e8-. e8 r8 | %67
+  e8-. e8 r8 e8-. e8 r8 e8-. e8 | %68
 }
 altoSax = {
   \global
