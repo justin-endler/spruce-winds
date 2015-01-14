@@ -232,7 +232,7 @@ tenor = \relative c' {
   \autoBeamOff
   fs8[ fs8-.] fs8.[ fs16] r16 fs16 ~ fs8 fs8-.[ fs8] | %11
   \autoBeamOn
-  fs8-. fs8 ~ fs16 fs16 r16 fs16 ~ fs8[ fs8-.] fs8 fs8-.\! | %12
+  fs8-. fs8 ~ fs16 fs16 r16 fs16 ~ fs8[ fs8-.] fs8\! fs8-.\f | %12
   R1*7 |
   r2 ds8-^\f r16 fs16-^ r8 as8-^ | %20
   R1 | %21
@@ -248,19 +248,19 @@ tenor = \relative c' {
   \time 4/4
   R1*7 |
   \time 2/4
-  r4 r8 fs8-. | %35
+  r4 r8 fs8-.\f | %35
   \time 4/4
   % repeated rhythm
   % 0
   \autoBeamOff
-  fs8.[ fs16] r16 fs16 ~ fs8 fs8-.[ fs8 fs8-. fs8] ~ | %36
+  fs8.[_"OR" fs16] r16 fs16\ppp ~ fs8 fs8-.\<[ fs8 fs8-. fs8] ~ | %36
   \autoBeamOn
   fs16 fs16 r16 fs16 ~ fs8 fs8-. fs8 fs8-. fs8. fs16 | %37
   \autoBeamOff
   r16 fs16 ~ fs8 fs8-.[ fs8] fs8-.[ fs8] ~ fs16[ fs16] r16 fs16 ~ | %38
-  fs8[ fs8-. fs8 fs8-.] fs8.[ fs16] r16 fs16 ~ fs8 | %39
+  fs8[ fs8-. fs8 fs8-.] fs8.[ fs16] r16 fs16 ~ fs8\! | %39
 
-  d8-.[ d8 d8-. d8] ~ d16[ d16] r16 d16 ~ d8[ d8-.] | %40
+  d8-.\f[ d8 d8-. d8] ~ d16[ d16] r16 d16 ~ d8[ d8-.] | %40
   d8[ d8-.] d8.[ d16] r16 d16 ~ d8 d8-.[ d8] | %41
   \autoBeamOn
   d8-. d8 ~ d16 d16 r16 d16 ~ d8 d8-. d8 d8-. | %42
@@ -281,7 +281,7 @@ tenor = \relative c' {
   \autoBeamOff
   c8.[ c16] r16 c16 ~ c8 c8-.[ c8 c8-. c8] ~ | %50
   \autoBeamOn
-  c16 c16 r16 c16 ~ c8 c8-. c8 c8-. r16 cs'16 r16 cs16 ~ | %51
+  c16 c16 r16 c16 ~ c8 c8-. c8 c8-. r16 cs'16\ff r16 cs16 ~ | %51
   \autoBeamOff
   cs8.[ cs16] r16 c16 ~ c8 r8 cs8 ~ cs16[ cs16] r16 c16 ~ | %52
   \autoBeamOn
@@ -291,10 +291,10 @@ tenor = \relative c' {
   \autoBeamOn
   cs2 ~ cs4 r4 | %55
   R1*3 |
-  b4 ~ b8 a8 ~ a2 ~ | %59
-  a4 ~ a16 a16 g8-. r8 r16 a16 ~ a4 ~ | %60
+  b4\p ~ b8 a8 ~ a2 ~ | %59
+  a4 ~ a16 a16 g8-. r8 r16 a16\< ~ a4 ~ | %60
   a1 | %61
-  r4 r8 d8-. d8 r8 d8-. d8 | %62
+  r4\! r8 d8-.\mf d8 r8 d8-. d8 | %62
   r8 d8-. d8 r8 d8-. d8 r8 d8-. | %63
   d8 r8 d8-. d8 r8 d8-. d8 r8 | %64
   d8-. d8 r8 d8-. d8 r8 d8-. d8 | %65
