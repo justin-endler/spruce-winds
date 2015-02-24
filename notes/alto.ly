@@ -3,7 +3,7 @@
 altoNotes = \relative c'' {
   \Key
   % Logic bar numbers in comments
-  a8-. a8 ~ a16 a16 r16 a16 ~ a8[ a8-.] a8 a8-. | %5
+  a8-.\ff a8 ~ a16_"OR" a16 r16 a16\ppp ~ a8\< [ a8-.] a8 a8-. | %5
   \autoBeamOff
   a8. a16 r16 a16 ~ a8 a8-.[ a8] a8-.[ a8] ~ | %6
   \autoBeamOn
@@ -16,14 +16,14 @@ altoNotes = \relative c'' {
   \autoBeamOff
   a8[ a8-.] a8.[ a16] r16 a16 ~ a8 a8-.[ a8] | %11
   \autoBeamOn
-  a8-. a8 ~ a16 a16 r16 a16 ~ a8[ a8-.] a8 a8-. | %12
+  a8-. a8 ~ a16 a16 r16 a16 ~ a8[ a8-.] a8\! a8-.\f | %12
   R1*7 |
-  r2 gs8-^ r16 b16-^ r8 ds8-^ | %20
+  r2 gs8-^\f r16 b16-^ r8 ds8-^ | %20
   R1 | %21
   r2 r16 cs16 r8 ds8 r8 | %22
   r16 a16 r8 r4 r2 | %23
   \autoBeamOff
-  r2 r4 r16 g16 ~ g8 ~ | %24
+  r2 r4 r16 g16\p ~ g8 ~ | %24
   \autoBeamOn
   g1 | %25
   R1*2 |
@@ -32,18 +32,18 @@ altoNotes = \relative c'' {
   \time 4/4
   R1*7 |
   \time 2/4
-  r4 r8 a8-. | %35
+  r4 r8 a8-.\f | %35
   \time 4/4
   % repeated rhythm
   % 0
   \autoBeamOff
-  a8.[ a16] r16 a16 ~ a8 a8-.[ a8 a8-. a8] ~ | %36
+  a8.[_"OR" a16] r16 a16\ppp ~ a8 a8-.\<[ a8 a8-. a8] ~ | %36
   \autoBeamOn
   a16 a16 r16 a16 ~ a8 a8-. a8 a8-. a8. a16 | %37
   \autoBeamOff
   r16 a16 ~ a8 a8-.[ a8] a8-.[ a8] ~ a16[ a16] r16 a16 ~ | %38
-  a8[ a8-. a8 a8-.] a8.[ a16] r16 a16 ~ a8 | %39
-  f8-.[ f8 f8-. f8] ~ f16[ f16] r16 f16 ~ f8[ f8-.] | %40
+  a8[ a8-. a8 a8-.] a8.[ a16] r16 a16 ~ a8\! | %39
+  f8-.\f[ f8 f8-. f8] ~ f16[ f16] r16 f16 ~ f8[ f8-.] | %40
   f8[ f8-.] f8.[ f16] r16 f16 ~ f8 f8-.[ f8] | %41
   \autoBeamOn
   f8-. f8 ~ f16 f16 r16 f16 ~ f8 f8-. f8 f8-. | %42
@@ -63,7 +63,7 @@ altoNotes = \relative c'' {
   \autoBeamOff
   ds8.[ ds16] r16 ds16 ~ ds8 ds8-.[ ds8 ds8-. ds8] ~ | %50
   \autoBeamOn
-  ds16 ds16 r16 ds16 ~ ds8 ds8-. ds8 ds8-. r16 ds'16 r16 e16 ~ | %51
+  ds16 ds16 r16 ds16 ~ ds8 ds8-. ds8 ds8-. r16 ds'16\ff r16 e16 ~ | %51
   \autoBeamOff
   e8.[ ds16] r16 cs16 ~ cs8 r8 e8 ~ e16[ ds16] r16 cs16 ~ | %52
   \autoBeamOn
@@ -73,10 +73,10 @@ altoNotes = \relative c'' {
   \autoBeamOn
   e2 ~ e4 r4 | %55
   R1*3 |
-  fs4 ~ fs8 cs8 ~ cs2 ~ | %59
-  cs4 ~ cs16 d16 cs8-. r8 r16 b16 ~ b4 ~ | %60
+  fs4\p ~ fs8 cs8 ~ cs2 ~ | %59
+  cs4 ~ cs16 d16 cs8-. r8 r16 b16\< ~ b4 ~ | %60
   b1 | %61
-  r4 r8 e8-. e8 r8 e8-. e8 | %62
+  r4\! r8 e8-.\mf e8 r8 e8-. e8 | %62
   r8 e8-. e8 r8 e8-. e8 r8 e8-. | %63
   e8 r8 e8-. e8 r8 e8-. e8 r8 | %64
   e8-. e8 r8 e8-. e8 r8 e8-. e8 | %65

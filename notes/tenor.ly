@@ -43,7 +43,6 @@ tenorNotes = \relative c' {
   \autoBeamOff
   r16 fs16 ~ fs8 fs8-.[ fs8] fs8-.[ fs8] ~ fs16[ fs16] r16 fs16 ~ | %38
   fs8[ fs8-. fs8 fs8-.] fs8.[ fs16] r16 fs16 ~ fs8\! | %39
-
   d8-.\f[ d8 d8-. d8] ~ d16[ d16] r16 d16 ~ d8[ d8-.] | %40
   d8[ d8-.] d8.[ d16] r16 d16 ~ d8 d8-.[ d8] | %41
   \autoBeamOn

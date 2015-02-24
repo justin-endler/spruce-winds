@@ -7,7 +7,7 @@
 }
 
 % ------ Alto ------
-alto = {
+alto = \transpose c a {
   \time 4/4
   \set Staff.instrumentName = #"Alto Sax"
   \clef treble

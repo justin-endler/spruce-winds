@@ -7,7 +7,7 @@
 }
 
 % ------ Clarinet ------
-clarinet = {
+clarinet = \transpose c d {
   \time 4/4
   \set Staff.instrumentName = #"Clarinet"
   \clef treble

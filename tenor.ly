@@ -7,7 +7,7 @@
 }
 
 % ------ Tenor ------
-tenor = {
+tenor = \transpose c d' {
   \time 4/4
   \set Staff.instrumentName = #"Tenor Sax"
   \clef treble
